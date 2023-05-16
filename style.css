@@ -1,0 +1,455 @@
+.login-design{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
+    background-image: url(./imgs/1-Oct-Gourmet-soups-and-salads-4-to-6-30-1024x805.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+body {
+	overflow: hidden;
+}
+
+.main{
+	width: 350px;
+	height: 500px;
+ 	overflow: hidden;
+	border-radius: 10px;
+    padding-top: 200px;
+}
+
+#chk{
+	display: none;
+}
+
+.login{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 40px;
+	font-weight: blid;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: blid;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+button:hover{
+	background: #6d44b8;
+}
+
+.rest-name{
+	background: #eee;
+    border-radius: 60% / 15%;
+    transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+
+.rest-name label{
+	color: #573b8a;
+	transform: scale(.6);
+    margin: 0px;
+}
+
+#chk:checked ~ .rest-name{
+	transform: translateY(-500px);
+}
+
+#chk:checked ~ .rest-name label{
+	transform: scale(1);	
+}
+
+#chk:checked ~ .login label{
+	transform: scale(.6);
+}
+
+/* welcome html */
+
+.login-left-content{
+	background-image: url(./imgs/menu12.jpg);
+	max-width: 1690px;
+	width: 100%;
+	height: 100%;
+	max-height:  1200px;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.login-left-content h2{
+    align-items: center;
+	color:#c15050;
+	font-size: 50px;
+	padding: 0px 500px 0px 50px ;
+	margin: 0px;
+
+}
+
+.login-left-content h3 {
+	color:#c15050;
+	font-size: 30px;
+	line-height: 35px;
+	padding: 40px 700px 20px 400px ;
+	margin: 0px;
+}
+.login-left-content h4 {
+	color:#c15050;
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0px 200px 0px 250px;
+	padding: 10px 10px;
+	width: 10%;
+	height: 40px;
+	display: block;
+	font-size: 2em;
+	font-weight: blid;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	transition: .2s ease-in;
+}
+
+.login-left-content p{
+	-ms-transform: skewY(20deg);
+	transform: skewY(20deg);
+	transition-duration: 2s;
+	display: none;
+	padding: 0px;
+}
+
+.Main-Menu{
+	display: flex;
+}
+
+.Main-Menu  button{
+	background-color:rgb(74, 31, 31) ;
+	font-size: 30px;
+	line-height: 45px;
+	background-size:cover ;
+	width: 100%;
+	height: 100%;
+	-ms-transform: skewY(5deg); /* IE 9 */
+	transform: skewY(5deg);
+	transition-duration: 2s;
+	color: #e0dede;
+}
+.Main-Menu button:hover{
+	background: #6d44b8;
+}
+
+/* sweetmenu-special */
+
+.sweetmenu-special{
+	background-image: url(./imgs/menu12.jpg);
+	height: 100%;
+    background-size: cover;
+    animation-duration: 5s;
+    animation-name: example;
+}
+
+.cart-button{
+	width:10%;
+	padding: 10px;
+	margin:0px 190px;
+	background-color: rgb(74, 31, 31);
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+.cart-button button:hover{
+	background: #6d44b8;
+}
+
+.menu-button{
+	width:30px;
+	padding: 0px;
+	margin:0px 10px;
+	background-color: rgb(74, 31, 31);
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+.menu-button button:hover{
+	background: #6d44b8;
+}
+
+.sweetmenu-special h3{
+	margin: 0 auto;
+	padding: 40px;
+	font-size: 30px;
+	line-height: 50px;
+	color:#c15050 ;
+	animation-name: example;
+    animation-duration: 5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
+	display: flex;
+}
+ 
+.sweetmenu-special li{
+	padding-bottom: 10px;
+	font-size: 25px;
+	line-height: 30px;
+	display: flex;
+	width: 80%;
+    color: white;
+}
+
+.sweetmenu-special span{
+	padding: 0px 100px;
+	text-align: initial;
+	font-size: 20px;
+	line-height: 30px;
+  display: none;
+}
+.sweetmenu-button{
+	display: flex;
+	width: 80%;
+	padding: 20px ;
+}
+
+.sweetmenu-button button{
+	width: 20%;
+	padding: 0px;
+	margin: 25px;
+	background-color: rgb(74, 31, 31);
+}
+
+.sweetmenu-button button:hover{
+	background: #6d44b8;
+}
+
+/* drinks-menu-Special */
+
+.drinks-menu-Special{
+	background-image: url(./imgs/menu12.jpg);
+	height: 100%;
+	padding: 0 auto;
+    background-size: cover;
+}
+
+.drinks-menu-Special h3{
+	margin: 0 auto;
+	font-size: 30px;
+	line-height: 40px;
+	padding: 30px;
+	color:#c15050;
+}
+
+.drinks-menu-Special li{
+	padding-bottom: 10px;
+	font-size: 25px;
+	line-height: 25px;
+	display: flex;
+	width: 80%;
+	color: white;
+}
+
+.drinks-menu-Special span{
+	padding: 0px 100px;
+	text-align: initial;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.drinks-button{
+	display: flex;
+	width: 80%;
+	padding: 20px;
+	margin: 20px ;
+}
+
+.drinks-button button{
+   width: 20%;
+   margin: 25px;
+   background-color: rgb(74, 31, 31);
+}
+
+.drinks-button button:hover{
+	background: #6d44b8;
+}
+
+/* veghtml */
+
+.vegmenu-Special{
+	background-image: url(./imgs/menu12.jpg);
+	height: 100%;
+	padding: 0 auto;
+    background-size: cover;
+}
+
+.vegmenu-Special h3{
+	margin: 0 auto;
+	font-size: 30px;
+	line-height: 40px;
+	padding: 40px;
+	color:#c15050;
+}
+
+.vegmenu-Special li{
+	padding-bottom: 10px;
+	font-size: 25px;
+	line-height: 30px;
+	display: flex;
+	width: 80%;
+	color: white;
+}
+
+.vegmenu-Special ul{
+   margin: 0 auto;
+}
+
+.vegmenu-Special span{
+	padding: 0px 200px;
+	text-align: initial;
+	font-size: 20px;
+	line-height: 30px;
+	float: right;
+	display: none;
+}
+
+.vegmenu-special{
+	background-image: url(./imgs/menu12.jpg);
+	height: 100%;
+	padding: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vegmenu-special h3{
+	margin: 0 auto;
+	padding:40px;
+	font-size: 30px;
+	line-height: 40px;
+	color:#c15050;
+}
+
+.vegmenu-special li{
+	padding-bottom: 10px;
+	font-size: 25px;
+	line-height: 30px;
+	display: flex;
+	width: 80%;
+	color: white;
+	/* padding: 10px; */
+}
+
+.vegmenu-special span{
+	padding: 0px 100px;
+	text-align: initial;
+	font-size: 20px;
+	line-height: 30px;
+	display: none;
+}
+
+.drinks-menu-Special .menubutton{
+	width: 10%;
+	height: 40px;
+    color: #fff;
+	background: rgb(74, 31, 31);
+	font-size: 1em;
+	font-weight: bold;
+	margin: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	float: right;
+	transform: translateX(-50%);
+	width: auto;
+}
+
+.drinks-menu-Special .menubutton:hover{
+    border-bottom: 10px solid black;
+}
+/*  */
+.btn-menu {
+	width: 100px;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.main-nav {
+	position: absolute;
+	right: -200px;
+	top: 100px;
+	width: 200px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all .2s;
+}
+.main-nav.active {
+	right: 0;
+}
+
+.main-nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+.main-nav ul li{
+	list-style: none;
+	padding: 10px;
+}
+.main-nav ul li a{
+	text-decoration: none;
+	padding: 12px 12px;
+	background-color: rgb(74, 31, 31);	
+	/* border-bottom: 1px solid #ccc; */
+	display: block;
+	text-transform: capitalize;
+    border-radius: 5px;
+	color: white;
+}
+.main-nav ul li a:hover {
+	background-color: #6d44b8;}
+
+
+
+  

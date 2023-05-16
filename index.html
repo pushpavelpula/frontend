@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Open+Sans:wght@500&family=Poltawski+Nowy:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>menu</title>
+</head>
+<body>
+    <div class="main-menu">
+        <button type="button" class="btn-menu" onclick="toggleMenu()">Menu</button>
+        <div class="main-nav" id="main_nav">
+            <ul>
+                <li> <a href="./sweet.html">Special Sweet</a> </li>
+                <li><a href="./drinks.html">Cool Drinks</a></li>
+                <li><a href="./veg.html">Veg starters</a></li>
+                <li><a href="./nonveg.html">Non Veg starters</a></li>
+                <li><a href="./noodles.html">Noodles</a></li>
+                <li><a href="./rice.html">Rice</a></li>
+                <li><a href="./naans.html">Naanss</a></li>
+                <li><a href="./seafoods.html">sea foods</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="login-design">
+       <div class="main">  	
+		  <input type="checkbox" id="chk" aria-hidden="true">
+		  <div class="login">
+			 <label for="chk" aria-hidden="true"> Login</label>
+			 <input type="text" name="text" id="un" class="input">
+			 <input type="text" name="text" id="pw" class="input">
+             <button id="myButton" onclick="onSubmit()">Submit</button>
+		  </div>
+		  <div class="rest-name">
+			<label for="chk" aria-hidden="true">Food Festival</label>
+		  </div>
+	  </div>
+ </div>
+</body>
+<script type="text/javascript">
+    
+    function onSubmit() {
+        let username = document.getElementById('un').value;
+        let password = document.getElementById('pw').value;
+
+        if(username === 'pushpa', password === '123') {
+            location.href = "file:///C:/fullstackwork/Resterant-menu/welcome.html"
+        }
+        else {
+        alert("login failed");
+    }
+        // location.href = "file:///C:/fullstackwork/Resterant-menu/welcome.html?text=&text=";
+    };
+</script>
+</html>

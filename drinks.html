@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-menu">
+        <button type="button" class="btn-menu" onclick="toggleMenu()">Menu</button>
+        <div class="main-nav" id="main_nav">
+            <ul>
+                <li> <a href="./sweet.html">Special Sweet</a> </li>
+                <li><a href="./drinks.html">Cool Drinks</a></li>
+                <li><a href="./veg.html">Veg starters</a></li>
+                <li><a href="./nonveg.html">Non Veg starters</a></li>
+                <li><a href="./noodles.html">Noodles</a></li>
+                <li><a href="./rice.html">Rice</a></li>
+                <li><a href="./naans.html">Naanss</a></li>
+                <li><a href="./seafoods.html">sea foods</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="drinks-menu-Special">
+        <h3>Cool Drinks  </h3>
+        <ul>
+            <li><button class="menu-button">+</button> Pepsi</li>
+            <li><button class="menu-button">+</button> Thumsup</li>
+            <li><button class="menu-button">+</button> Sprite</li>
+            <li><button class="menu-button">+</button> Sweet Lassy</li>
+            <li><button class="menu-button">+</button> Mango Thik Shake</li>
+            <li><button class="menu-button">+</button> Milk Shake</li>
+            <li><button class="menu-button">+</button> Grape Juice</li>
+            <li><button class="menu-button">+</button> Coco Cola</li>
+        </ul>
+        <div class="drinks-button">
+            <button id="cart" >Cart</button>
+            <button id="home" >Home</button>
+            <button id="nextverities" >Next varieties</button>
+        </div>
+    </div>
+</body>
+   <script type="text/javascript">
+       document.getElementById("cart").onclick = function () {
+        location.href = "file:///C:/fullstackwork/Resterant-menu/cart.html?text=&text=";
+       };
+       document.getElementById("home").onclick = function () {
+        location.href = "file:///C:/fullstackwork/Resterant-menu/welcome.html?text=&text=";
+       };
+       document.getElementById("nextverities").onclick = function () {
+        location.href = "file:///C:/fullstackwork/Resterant-menu/veg.html?text=&text=";
+       };
+       function toggleMenu() {
+        var element = document.getElementById("main_nav");
+        element.classList.add("active");
+       }
+    </script>
+</html>

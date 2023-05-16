@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-menu">
+        <button type="button" class="btn-menu" onclick="toggleMenu()">Menu</button>
+        <div class="main-nav" id="main_nav">
+            <ul>
+                <li> <a href="./sweet.html">Special Sweet</a> </li>
+                <li><a href="./drinks.html">Cool Drinks</a></li>
+                <li><a href="./veg.html">Veg starters</a></li>
+                <li><a href="./nonveg.html">Non Veg starters</a></li>
+                <li><a href="./noodles.html">Noodles</a></li>
+                <li><a href="./rice.html">Rice</a></li>
+                <li><a href="./naans.html">Naanss</a></li>
+                <li><a href="./seafoods.html">sea foods</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vegmenu-Special">
+        <h3>VEG STARTERS  </h3>
+        <ul>
+            <li><button class="menu-button">+</button> Veg Spring Roles <span>RS-100</span></li>
+            <li><button class="menu-button">+</button> Panner Tikka <span>RS-120</span></li>
+            <li><button class="menu-button">+</button> Panner Spring Roles <span>RS-130</span></li>
+            <li><button class="menu-button">+</button> French Fries <span>RS-100</span></li>
+            <li><button class="menu-button">+</button> Baby Corn Fry <span>RS-130</span></li>
+            <li><button class="menu-button">+</button> Pery Pery Fries <span>RS-110</span></li>
+            <li><button class="menu-button">+</button> Mashrom Tikka <span>RS-100</span></li>
+            <li><button class="menu-button">+</button> Baby Corn Roles<span>RS-130</span></li>
+        </ul>
+       <div class="sweetmenu-button">
+            <button id="cart" >Cart</button>
+            <button id="home" >Home</button>
+            <button id="nextverities" >Next varieties</button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    document.getElementById("cart").onclick = function () {
+        location.href = "file:///C:/fullstackwork/Resterant-menu/cart.html?text=&text=";
+    };
+    document.getElementById("home").onclick = function () {
+        location.href = "file:///C:/fullstackwork/Resterant-menu/welcome.html?text=&text=";
+    };
+    document.getElementById("nextverities").onclick = function () {
+        location.href = "file:///C:/fullstackwork/Resterant-menu/nonveg.html?text=&text=";
+    };
+
+    function toggleMenu() {
+        var element = document.getElementById("main_nav");
+        element.classList.add("active");
+        element.classList.toggle("active");
+    }
+
+    function toggleMenu() {
+     var x = document.getElementById("main_nav");
+     if (x.style.display === "none") {
+     x.style.display = "block";
+     } else {
+     x.style.display = "none";
+  }
+}
+</script>
+</html>
