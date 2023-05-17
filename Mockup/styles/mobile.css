@@ -1,0 +1,823 @@
+@media screen and (max-width: 768px){
+    /* Global-declarations*/
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .wrapper{
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* Hedder-section */
+
+
+   
+.home-banner-container{
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0px;
+   height: 500px;
+   
+}
+.home-banner-heading::before {
+   width: 90%;
+   margin: 10px;
+}
+
+.home-banner-heading::after {
+    width: 90%;
+    margin: 10px;
+    bottom: -40px;
+    /* height: auto; */
+}
+
+.home-banner-content {
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    height: auto;
+}
+
+.home-banner-content h1{
+    font-size: 20px;
+    padding:  10px 20px 0px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.home-banner-heading {
+    font-size: 20px;
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+.home-banner-content p {
+   
+   
+    font-size: 15px;
+    line-height:23px ;
+    font-size:15px ;
+    padding: 20px;
+}
+
+.home-banner-quote {
+    padding: 10px 30px;
+    margin: 10px 25px;
+    /* line-height: 20px; */
+    font-size: 15px;
+    z-index: 9;
+}
+/* overview */
+.overview-heading span {
+    
+    font-size: 14px;
+    width: 179px;
+}
+
+.overview-heading h2 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    padding:20px 0px;
+    margin: 0px;
+}
+
+.overview-heading p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 25px;
+    text-align: initial;
+    margin: 0px;
+
+}
+
+/* Why Are We Differnt*/
+
+.why-we-are-different {
+    background-color: rgb(218, 210, 210);
+    padding: 0px;
+    flex-basis: 100%; 
+}
+
+.why-we-are-different-img img{
+    max-width: 320px;
+    margin: 0px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.why-we-are-different-text span {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.why-we-are-different-text {
+   width: 100%;
+   max-width: 320px;
+   flex-basis: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+.why-we-are-different h2 {
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 30px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.why-we-are-different-content img{
+    padding: 0px;
+    margin: 0px;
+}
+
+.why-we-are-different-content p{
+    padding: 2px 10px;
+    margin: 0px;
+    font-size:14px;
+    text-align:initial ;
+
+}
+
+.content-left {
+    flex-wrap: wrap;
+ }
+
+.li-style {   
+    font-size: 14px;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.licontent{
+   display: flex;
+}
+
+/* .what-we-cover, */
+
+.what-we-cover-container{
+    padding: 0px 10px;
+}
+
+.what-we-cover-heading span {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.what-we-cover-heading h2 {
+   font-size: 24px;
+   line-height: 28px;
+   padding: 10px;
+}
+
+.what-we-cover-heading p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px;
+}
+.what-we-cover-flex{
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+}
+
+.img-slyles {
+    max-width: 320px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.box {
+    height: auto;
+    max-width: 443px;
+    width: 100%;
+    padding: 0px;
+}
+
+.box .heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 30px;
+}
+
+.box-content {
+  flex-wrap: wrap;  
+  padding: 10px 20px ;
+  margin-top: 0px;
+  line-height: 23px;
+  font-size: 14px;
+}
+
+/* .coverage-container, */
+
+.coverage-container{
+    max-width: 320px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* display: inline; */
+    flex-wrap: wrap;
+}
+.coverage-heading span {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 73px;
+}
+
+.coverage {
+    margin: 0px;
+flex-wrap: wrap; 
+   margin: 0px;
+}
+.coverage ,.content{
+    padding: 0px;
+    }
+.houseimg {
+    width: 320px;
+    height: auto;
+    /* display: none */;
+    align-items: initial;
+    margin: 0px;
+}
+.electrical-details{
+    padding: 20px;
+}
+
+.coverage-heading h2 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.house-paragraph{
+    display: none;
+}
+
+/* Standard-covarege */
+.stardard-coverage {
+   margin-top: 400px;
+}
+
+.stardard-coverage-heading h2 {
+  display: none;
+}
+
+.stardard-coverage,.h3 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    line-height: 33px;
+    padding: 0px 0px;
+  }
+
+
+.stardard-coverage-cont {
+    display: flex;
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+
+
+  }
+
+  .stardard-coverage-box {
+    width: 260px;
+    height:auto;
+    margin: 10px 10px 10px;
+    background-color: whitesmoke;
+    border-bottom: 4px solid maroon;
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+}
+
+
+.stardard-coverage-box>img {
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    margin:0px 70px ;
+}
+
+.stardard-coverage-box h2 {
+    font-size: 18px;
+    line-height: 27px;
+    width: 180px;
+    padding: 0px 10px ;
+    margin: 0px;
+
+}
+
+.stardard-coverage-box p {
+    font-size: 14px;
+    line-height: 20px;
+   width: 204px;
+
+}
+
+.stardard-coverage-box1 
+h2,
+p {
+    text-align: center;
+
+}
+
+/* explore-sec */
+
+.explore-our-plans {
+    height: 307px;
+   
+   
+}
+.explore-our-plans h2::before{
+    display: none;
+}
+
+.explore-our-plans h2 {
+   font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    /* position:relative; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.explore-our-plans h3 {
+    font-size: 20px;
+    line-height: 33px;
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.explore-our-plans p {
+   font-size: 14px;
+   line-height: 23px;
+    max-width: 749px;
+    margin:0px;
+    padding: 10px 20px;
+    }
+
+.plans-in{
+    flex-wrap: wrap;   
+     margin: 0px;
+      padding: 20px;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      padding: 10px;
+    
+    
+}
+
+.plans-left-header h4{
+   font-size: 30px;
+   line-height: 41px;
+    padding: 10px;
+    margin: 0px;
+    max-width: 280px;
+
+    border-radius: 2px solid whitesmoke;
+   }
+
+.plans-left-header h4 span{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px auto;
+    padding: 0px;
+}  
+.plans-left-content-main{
+    line-height: 19px;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+} 
+
+.plans-left-content{
+   font-size: 14px;
+   line-height: 19px;
+   height: auto;
+   margin: 0px;
+   padding: 0px;
+}
+
+.plans-right-header h4{
+    font-size: 30px;
+ line-height: 41px;
+  padding: 10px;
+  margin: 0px;
+max-width: 280px;
+  border-radius: 2px solid whitesmoke;
+}
+      
+.lans-left-content{
+    font-size: 14px;
+    line-height: 19px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.plans-right-header{
+ padding-top: 10px;
+ border-left: 0;
+}
+
+.plans-right-header h4 span{
+    font-size: 16px;
+    line-height: 20px;
+}  
+      
+    .plans-right-content-main{
+        line-height: 19px;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .plans-right-content{
+        font-size: 14px;
+        line-height: 19px;
+        height: auto;
+        margin: 0px;
+        padding: 20px 0px;
+
+     }
+      
+    .plans-right-content ul{
+     margin: 0px;
+     line-height: 2;
+    }
+/*  */
+
+.explore-heading span {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.explore-content{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.bx1 {
+    margin:0px;
+}
+.bx2 {
+    margin:0px;
+}
+
+.explore-heading span{
+     font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 19px;
+}
+
+.explore h2{
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 20px;
+   margin: 0px;
+   line-height: 30px;
+}
+
+.explore p{
+    font-size: 14px;
+    padding: 10px;
+    line-height: 23px; 
+    margin: 0px;
+}
+
+.explore .box2 {
+    height: 204px;
+    line-height: 20px;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+.explore .box4 {
+    height: 204px;
+    line-height: 20px;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    float:inline-end ;
+
+}
+.explore .box1 {
+    height: 100px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.explore .box3 {
+    height: 100px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+/* warranty-pricing */
+
+.warranty-pricing{
+    padding: 0px;
+}
+.warranty-pricing span {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 19px;
+    margin: 0px
+}
+
+.warranty-pricing h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0px;
+    line-height: 30px;
+}
+
+.warranty-pricing  p {
+    font-size: 14px;
+    padding: 10px 20px;
+    line-height: 23px; 
+    margin: 0px;
+}
+ .para2{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 0px;
+    line-height: 23px;
+}
+
+.warranty-pricing span:before {
+   content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    left: 760px;
+    top: 258.70rem;
+    display: none;
+}
+
+.warranty-pricing span:after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    left: 530px;
+    top: 258.70rem;
+    display: none;
+
+}
+
+/* builder-secure */
+
+.builder-secure{
+flex-wrap: wrap;
+padding: 20px 5px;
+max-height: 540px;
+max-width: 320px;
+width: 100%;
+
+}
+
+.builder-secure-content{
+    margin: 10px;
+}
+
+.builder-secure>img {
+    max-width: 320px;
+    margin: 0px;
+    height: auto;
+    padding: 0px;
+}
+
+.builder-secure span {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 19px;
+    margin: 0px ;  
+    display: inline;  
+}
+
+.builder-secure h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px ;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.builder-secure p {
+    font-size: 14px;
+    padding: 10px;
+    line-height: 23px; 
+    margin:0px;
+    text-align: initial;
+}
+
+/* fqa-sec */
+
+.fqa-sec span{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0px;
+    padding:0px 145px;
+
+}
+
+.faq-subheading{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    line-height: 25px;
+    margin: 0px ;
+}
+
+.faq-q1 {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 9px;
+    text-align: initial;
+}
+
+.faq-q2 {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    text-align: initial;
+
+}
+
+.faq-q2para {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    text-align: initial;
+
+}
+.fqa-sec span::before{
+    left: 216px;
+    top: 373rem;
+    display:none;   
+
+}
+.faq-q3plus{
+    /* padding-left:  30%; */
+    margin: 0px;
+    font-weight: bold;
+    color: maroon;
+}
+.faq-q2plus{
+    /* padding-left:  27%; */
+    margin: 0px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.faq-q1plus{
+    /* padding-left:  37%; */
+    margin: 0px;
+    font-weight: bold;
+    color: maroon;
+}
+.hrtag {
+    max-width: 98%;
+    width: 100%;
+}
+
+/* help-sce */
+
+.help-sce {
+    height: auto;
+    max-width: 320px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.form{
+    padding: 20px 0px;
+    height: auto;
+}
+
+.form h2 {
+    padding: 0px 15px;
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0px;
+}
+.form p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 15px;
+    margin: 0px;
+    /* text-align: initial; */
+}
+
+
+.grid-container{
+    flex-wrap: wrap;
+    justify-content:initial;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 300px;
+    width: 100%;
+    /* text-align: center; */
+    margin: 0px;
+    padding:10px ;
+}
+
+.grid-container input.txt {
+    max-width: 300px;
+    width: 100%;
+    height: 25px;
+    margin-right: 15px;
+    border-color: lightgray;
+    border-bottom: 5px solid lightgray;
+    /* margin-top: 10px; */
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.grid-container label {
+    padding:  0px;
+    margin: 10px 0px;
+}
+
+.help-para2 {
+    font-size: 12px;
+    margin:  20px;
+}
+
+/* spirit-of-success */
+
+
+.icon{
+    text-align: center;
+    margin: 0px;
+    padding:0px ;
+}
+
+.leader {
+    color: black;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.leader2 {
+    margin:0px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+
+
+
+
+.header-wrapper,
+/* .why-we-are-different, */
+/* .what-we-cover, */
+/* .coverage-container, */
+/* .explore, */
+/* .stardard-coverage-cont, */
+/* .warranty-pricing, */
+/* .builder-secure, */
+/* .fqa-sec, */
+/* .help-sce, */
+/* .spirit-of-success, */
+/* .explore-our-plans, */
+.footer-sec{
+    display: none;
+}
+}
